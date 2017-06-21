@@ -1,11 +1,11 @@
 SAFE for Individual Users
 =========================
 
-`SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__ is an online user
+`SAFE <https://www.archer.ac.uk/tier2/>`__ is an online user
 service management system. Through SAFE, individual users can request
 machine accounts, reset passwords, see available resources and track
 their usage. All users must be registered on SAFE before they can apply
-for an account on the DiRAC systems.
+for an account on the Tier-2 systems.
 
 SAFE: Registering, logging in, passwords
 ----------------------------------------
@@ -14,24 +14,24 @@ How to register on SAFE
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Go to the SAFE `New User Signup
-   Form <https://safe.epcc.ed.ac.uk/dirac/signup.jsp>`__
+   Form <https://www.archer.ac.uk/tier2/signup.jsp>`__
 #. Fill in your personal details. You can come back later and change
    them if you wish
 #. Click "Submit"
-#. You are now registered. Your SAFE password will be emailed to the
-   email address you provided. You can then login with that email
-   address and password
+#. You are now registered. A single use login link will be emailed to the
+   email address you provided. You can use this link to login and set
+   your password.
 
 At this point your account is registered on the SAFE but you do not
-have a user account on any of the DiRAC systems. To obtain a machine account on
-DiRAC  please follow the instructions below at:
+have a user account on any of the Tier-2 systems. To obtain a machine account on
+Tier-2  please follow the instructions below at:
 
-* `How to request a DiRAC system account`_
+* `How to request a Tier-2 system account`_
 
 How to login to SAFE and Overview of Main Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Go to the SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__
+`Go to the SAFE <https://www.archer.ac.uk/tier2/>`__
 
 #. Type in the email address you have registered with
 #. Type in your SAFE password
@@ -42,7 +42,7 @@ How to login to SAFE and Overview of Main Page
 How to change your personal details on SAFE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://www.archer.ac.uk/tier2/>`__. Then:
 
 #. Go to the Menu *Your details* and select *Update personal details*
 #. Make the changes you wish
@@ -57,7 +57,7 @@ you must type them again.
 How to change your email address on SAFE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://www.archer.ac.uk/tier2/>`__. Then:
 
 #. Go to the Menu *Your details* and select *Update email*
 #. Enter the new email address and click *Request*
@@ -70,7 +70,7 @@ use the new email address when logging into SAFE
 How to change your SAFE password
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://www.archer.ac.uk/tier2/>`__. Then:
 
 #. Go to the Menu *Your details* and select *Change SAFE password*
 #. Fill in the boxes and click *Change*
@@ -78,30 +78,28 @@ How to change your SAFE password
 How to reset your SAFE password
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://www.archer.ac.uk/tier2/>`__. Then:
 
 #. Enter your email address
 #. Click *Email*
-#. SAFE will mail your password to your email address
+#. SAFE will mail a one time login link to your email address
 
-SAFE will only mail to email addresses it already knows. But email is
-not a secure medium, so if you change your password this way, you should
-immediately change it again `from inside the SAFE. <#chpass>`__
+SAFE will only mail to email addresses it already knows.
 
 Of course, anyone could go to SAFE, type your email address and request
-a new password by clicking "Email". If that happens you will receive an
-email message out of the blue saying that your password has been
-changed. In this case you should certainly change your password again.
+a login link by clicking "Email". If that happens you will receive an
+email message out of the blue with the login link. In this case you
+should certainly use the link to login and set a new password.
 
 How to add an SSH key to your SAFE account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Some DiRAC systems may require you to register an SSH key in the SAFE
+Some Tier-2 systems may require you to register an SSH key in the SAFE
 before you can request an account on the system. To do this you will
 require a SSH key pair. You upload the *public part* of the key pair
 to your SAFE account as follows:
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://www.archer.ac.uk/tier2/>`__. Then:
 
 #. Go to the Menu *Your details* and select *Update personal details*
 #. Either copy and paste the public part of your SSH key into the
@@ -112,47 +110,18 @@ to your SAFE account as follows:
 
 Do not forget the last step, or nothing will happen.
 
-DiRAC Systems: Accounts, passwords
+Tier-2 Systems: Accounts, passwords
 ----------------------------------
 
-How to request a DiRAC system account
+How to request a Tier-2 system account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The minimum you require to create a DiRAC system account is
+The minimum you require to create a Tier-2 system account is
 a SAFE account and a *Project Code*. You should sign up for a SAFE 
 account as described above and Your project's PI or Project
 Manager should be able to supply you with the project code.
 
-Additionally, some DiRAC systems also require that you:
-
-* add the public part of a SSH key to your SAFE account to use when
-  logging into the system. If this is required for your system, 
-  you must upload this to SAFE before requesting an account by
-  following the instructions at: `How to add an SSH key to your SAFE account`_
-
-* provide a list of IP addresses that you will connect to the
-  system with. You supply these as part of the sign up process
-  for a new account.
-
-The following table indicates what is required by each system:
-
-+----------------------+------------------+-------------------+
-| System               | SSH Key Required | IP Range Required |
-+======================+==================+===================+
-| Edinburgh BG/Q       | No               | No                |
-+----------------------+------------------+-------------------+
-| Durham COSMA         | Yes              | Yes               |
-+----------------------+------------------+-------------------+
-| Leicester Complexity | No               | Yes               |
-+----------------------+------------------+-------------------+
-| Cambridge HPCS       | No               | Yes               |
-+----------------------+------------------+-------------------+
-| Cambridge COSMOS     | No               | Yes               |
-+----------------------+------------------+-------------------+
-
-Once you have thesem you should:
-
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://www.archer.ac.uk/tier2/>`__. Then:
 
 #. Go to the Menu *Login accounts* and select *Request login account*
 #. Choose the project you want the account for in the "Choose Project
@@ -160,20 +129,22 @@ Once you have thesem you should:
 #. Choose the system you want the account on by selecting from the
    available systems. (If a system is not available to select it may 
    be because you have not yet added an SSH keyto your account.)
-#. You may need to specify an IP adress range from which you wish to
-   connect to the specified system.
+#. Enter the username you would prefer to use on the service machine 
+   Every username must be unique, and you must create a new machine
+   account with a unique username for each project you work on. (You
+   can use the same username across different Tier-2 systems.)
 
 Now you have to wait for your PI or project manager to accept your
 request to register. When this has happened, the systems team are
 prompted to create your account on the service machine. Once this has
-been done, you will be sent an email. You can then `pick up your
-password <#getpass>`__ for the service machine from your SAFE account.
+been done, you will be sent an email. You can then pick up your
+password for the service machine from your SAFE account.
 
 How to reset a password on your machine account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you still remember your current machine account password, you can
-simply log in to the DiRAC system as normal and then use the passwd command
+simply log in to the Tier-2 system as normal and then use the passwd command
 
 ::
 
@@ -185,7 +156,7 @@ new password twice.
 If you have forgotten your current password, or it has expired, then you
 can ask for it to be reset:
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://www.archer.ac.uk/tier2/>`__. Then:
 
 #. Go to the Menu *Login accounts* and select the account you need the
    new password for
@@ -195,14 +166,14 @@ can ask for it to be reset:
 
 Now the systems team will change your password. When this has been done,
 you will be informed by email; this means that you can come back to SAFE
-and `pick up your new password <#getpass>`__.
+and pick up your new password.
 
-How can I pick up my password for DiRAC system account?
+How can I pick up my password for Tier-2 system account?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Wait till you receive the email with your details. Then:
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://www.archer.ac.uk/tier2/>`__. Then:
 
 #. Go to the Menu *Login accounts* and you will see your account on the
    service machine listed. Click on the appropriate account.
@@ -227,14 +198,14 @@ How to view user mailings
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 | All mailings are archived and can be viewed in
-  `SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__.
-| Please `login to SAFE <#login>`__ and go to the section *View user
+  `SAFE <https://www.archer.ac.uk/tier2/>`__.
+| Please login to SAFE and go to the section *View user
   mailings*. Press the *View* button to access the mailings.
 
 How to get added to, or removed from the email mailing list?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://www.archer.ac.uk/tier2/>`__. Then:
 
 #. Click on the Menu *Your details* click *Update personal details* find
    *Opt out of user emails* field and click it
@@ -244,7 +215,7 @@ Do not forget the last step, or nothing will happen.
 
 **Note:** Regardless of whether you are subscribed to the
 mailing list, you can still view ALL user mailings which have been sent,
-in SAFE. See `here <#mailings>`__ for details.
+in SAFE.
 
 
 Tracking Resource Usage
@@ -253,7 +224,7 @@ Tracking Resource Usage
 How to check how much time and space are available to you
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__
+`Login to SAFE <https://www.archer.ac.uk/tier2/>`__
 and Go to the Menu *Login accounts*, select
 the *username* which you wish to see details for. You will then see the
 information for this account. You will see the quotas for the disk space
@@ -268,7 +239,7 @@ different from from the current ones.
 How to review the use you have made of the service, or the activity of the service as a whole
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://www.archer.ac.uk/tier2/>`__. Then:
 
 #. Go to the Menu *Service information* and select *Report Generator*
 #. Select the report you wish to run and the format you want the output
@@ -281,20 +252,4 @@ How to review the use you have made of the service, or the activity of the servi
 If you are a PI or Project Manager, you will have access to additional
 reports to generate information on whole projects or groups as well as
 your own usage and the usage of the service as a whole.
-
-Miscellaneous
--------------
-
-How to check the queries you have submitted to the helpdesk
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
-
-#. Go to the Menu *Help and Support* and select *Your support requests*
-#. Click the number of a query to check the contents of the query log
-
-This will show you the queries of yours that haven't yet been resolved.
-Note that some of the internal correspondence about a query will not be
-shown. You can also use SAFE to submit a query—use *New support
-request*.
 
