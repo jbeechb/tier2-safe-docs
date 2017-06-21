@@ -127,8 +127,7 @@ Manager should be able to supply you with the project code.
 #. Choose the project you want the account for in the "Choose Project
    for Machine Account" box.
 #. Choose the system you want the account on by selecting from the
-   available systems. (If a system is not available to select it may 
-   be because you have not yet added an SSH keyto your account.)
+   available systems.
 #. Enter the username you would prefer to use on the service machine 
    Every username must be unique, and you must create a new machine
    account with a unique username for each project you work on. (You
