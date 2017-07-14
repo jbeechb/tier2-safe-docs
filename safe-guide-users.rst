@@ -5,7 +5,7 @@ SAFE for Individual Users
 service management system. Through SAFE, individual users can request
 machine accounts, reset passwords, see available resources and track
 their usage. All users must be registered on SAFE before they can apply
-for an account on the Tier-2 systems.
+for an account on the various Tier-2 facilities.
 
 SAFE: Registering, logging in, passwords
 ----------------------------------------
@@ -24,7 +24,7 @@ How to register on SAFE
 
 At this point your account is registered on the SAFE but you do not
 have a user account on any of the Tier-2 systems. To obtain a machine account on
-Tier-2  please follow the instructions below at:
+the Tier-2 HPC facilities please follow the instructions below at:
 
 * `How to request a Tier-2 system account`_
 
@@ -94,7 +94,7 @@ should certainly use the link to login and set a new password.
 How to add an SSH key to your SAFE account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Some Tier-2 systems may require you to register an SSH key in the SAFE
+Some of the Tier-2 facilities may require you to register an SSH key in the SAFE
 before you can request an account on the system. To do this you will
 require a SSH key pair. You upload the *public part* of the key pair
 to your SAFE account as follows:
@@ -110,13 +110,13 @@ to your SAFE account as follows:
 
 Do not forget the last step, or nothing will happen.
 
-Tier-2 Systems: Accounts, passwords
-----------------------------------
+Tier-2 Facilities: Accounts, passwords
+--------------------------------------
 
-How to request a Tier-2 system account
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How to request a system account on a Tier-2 facility
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The minimum you require to create a Tier-2 system account is
+The minimum you require to create an account on one of the Tier-2 facilities is
 a SAFE account and a *Project Code*. You should sign up for a SAFE 
 account as described above and Your project's PI or Project
 Manager should be able to supply you with the project code.
@@ -128,10 +128,10 @@ Manager should be able to supply you with the project code.
    for Machine Account" box.
 #. Choose the system you want the account on by selecting from the
    available systems.
-#. Enter the username you would prefer to use on the service machine 
-   Every username must be unique, and you must create a new machine
+#. Enter the username you would prefer to use on the system
+   Every username must be unique, and you must create a new system
    account with a unique username for each project you work on. (You
-   can use the same username across different Tier-2 systems.)
+   can use the same username across different Tier-2 facilities.)
 
 Now you have to wait for your PI or project manager to accept your
 request to register. When this has happened, the systems team are
@@ -143,7 +143,7 @@ How to reset a password on your machine account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you still remember your current machine account password, you can
-simply log in to the Tier-2 system as normal and then use the passwd command
+simply log in to the appropriate Tier-2 facility as normal and then use the passwd command
 
 ::
 
@@ -163,31 +163,31 @@ can ask for it to be reset:
    account.
 #. Click *New Login Account Passwd*
 
-Now the systems team will change your password. When this has been done,
+Now your password will be changed. When this has been done,
 you will be informed by email; this means that you can come back to SAFE
 and pick up your new password.
 
-How can I pick up my password for Tier-2 system account?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How can I pick up my password for a Tier-2 system account?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Wait till you receive the email with your details. Then:
 
 `Login to SAFE <https://www.archer.ac.uk/tier2/>`__. Then:
 
-#. Go to the Menu *Login accounts* and you will see your account on the
-   service machine listed. Click on the appropriate account.
+#. Go to the Menu *Login accounts* and you will see your accounts on the
+   Tier-2 facilities listed. Click on the appropriate account.
 #. This will display details of your account. Click *View Login Account
    Password* You will need to enter in your SAFE password and then click
    *view*, and you will see your password to the service machine
 
 This password is generated randomly by the software. It's best to
-copy-and-paste it across when you log in to the service machine.
+copy-and-paste it across when you log in to the facility.
 
 After you login, you will be prompted to change it. You should paste in
 the password retreived from SAFE again, and then you will be prompted to
 type in your new, easy-to-remember password, twice. 
 
-Note that when you change your password on the service machine in this
+Note that when you change your password on the facility in this
 way, this is not reflected on the SAFE.
 
 User Mailing Options
@@ -250,5 +250,5 @@ How to review the use you have made of the service, or the activity of the servi
 
 If you are a PI or Project Manager, you will have access to additional
 reports to generate information on whole projects or groups as well as
-your own usage and the usage of the service as a whole.
+your own usage and the usage of the Tier-2 facilities as a whole.
 
