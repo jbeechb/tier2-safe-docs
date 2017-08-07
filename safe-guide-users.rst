@@ -116,17 +116,18 @@ How to request access to a Package Group
 Some software which is installed on Tier-2 systems can only be accessed once the user's
 licence has been confirmed.
 
-**Note that Package Groups are only currently available on `Cirrus <http://www.cirrus.ac.uk>`__.**
+**Note:** Package Groups are only currently available on `Cirrus <http://www.cirrus.ac.uk>`__.
 
 For some of these packages, such as VASP, you can request access via SAFE
 
 `Login to SAFE <https://www.archer.ac.uk/tier2/>`__. Then:
+
 #. Go to the Menu *Login accounts* and select the account which requires access to the package
 #. Click *New Package Group Request*
-#. Select the package from the list of available packages and click "Select Package Group"
+#. Select the package from the list of available packages and click *Select Package Group*
 #. Fill in as much information as possible about your licence, at the very least, the information requested at the top of the screen such as the licence holder's name and contact details.
 #. If you are covered by the license because the licence holder is your supervisor, for example, please state this.
-#. Click "Submit"
+#. Click *Submit*
 
 Your request will then be processed by the appropriate support team who will confirm your license with the approriate authority before enabling your access to the package. This can take several days but you will be advised once this has been done.
 
