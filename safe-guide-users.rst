@@ -24,9 +24,7 @@ How to register on SAFE
 
 At this point your account is registered on the SAFE but you do not
 have a user account on any of the Tier-2 systems. To obtain a machine account on
-the Tier-2 HPC facilities please follow the instructions below at:
-
-* `How to request a Tier-2 system account`_
+the Tier-2 HPC facilities please follow the instructions below.
 
 How to login to SAFE and Overview of Main Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
