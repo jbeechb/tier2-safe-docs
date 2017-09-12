@@ -260,12 +260,13 @@ How to review the use you have made of the service, or the activity of the servi
 `Login to SAFE <https://www.archer.ac.uk/tier2/>`__. Then:
 
 #. Go to the Menu *Service information* and select *Report Generator*
-#. Select the report you wish to run and the format you want the output
-   in (web, PDF, CSV, XML) by clicking the appropriate icon in the list.
+#. Select the report you wish to run
 #. Complete the required information in the form: this will usually
    consist of at least a date range to analyse and may have other
    options depending on the report you are running.
-#. Click *Generate Report*
+#. Click the icon for the output format you would like to generate.
+   If you select preview you will get a report in the web browser 
+   with buttons to use to output the analysis in other formats.
 
 If you are a PI or Project Manager, you will have access to additional
 reports to generate information on whole projects or groups as well as
