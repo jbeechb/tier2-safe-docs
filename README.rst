@@ -7,6 +7,8 @@ For a guide on the rst file format see `this <http://thomas-cokelaer.info/tutori
 
 This documentation is drawn from the `Sheffield Iceberg documentation <https://github.com/rcgsheffield/sheffield_hpc>`_  and the `ARCHER <http://www.archer.ac.uk>`_ documentation.
 
+I added some text here.
+
 Rendered Documentation
 ----------------------
 Two versions of the documentation are currently automatically built from this repository:
